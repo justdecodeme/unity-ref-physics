@@ -21,13 +21,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         _x = Input.GetAxis("Horizontal") * speed;
-        // _z = Input.GetAxis("Vertical") * speed;
-        // if(_x < -4.4f) _x = -4.4f;
-        // if(_x > 4.4f) _x = 4.4f;
         movement = new Vector3(_x, _y, _z);
-        
-        Debug.Log(_x);
-
     }
 
     // Update for physics 

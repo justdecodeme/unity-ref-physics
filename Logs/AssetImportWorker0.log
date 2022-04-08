@@ -2084,3 +2084,4 @@ Received Import Request.
 Start importing Assets/Textures/Football.jpg using Guid(51f5254dd93326542b64d565dd40d04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6192a2f34cbc387d6d754134a528fc5') in 0.080222 seconds 
   Import took 0.083380 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

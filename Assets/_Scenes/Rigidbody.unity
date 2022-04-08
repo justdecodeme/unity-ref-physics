@@ -215,7 +215,7 @@ Transform:
   m_GameObject: {fileID: 1082402917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 5, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -412,3 +412,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1875793124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1875793125}
+  - component: {fileID: 1875793126}
+  - component: {fileID: 1875793127}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1875793125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875793124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1875793126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875793124}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1bc8fd5e0c8d641a447c23bb9bad1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeCount: 200
+  timeInterval: 0.05
+  prefab: {fileID: 1393847039504310372, guid: 3ef6b689cd5273f46a186e8d2ddde535, type: 3}
+  randomPosStart: {x: -5.05, y: 9, z: -3.97}
+  randomPosEnd: {x: 3.02, y: 50, z: 4.2}
+--- !u!114 &1875793127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875793124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b0388526eab914eacbb040bd348c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeCount: 100
+  timeInterval: 0.05
+  prefab: {fileID: 1393847039504310372, guid: 3ef6b689cd5273f46a186e8d2ddde535, type: 3}
+  randomPosStart: {x: -8, y: 9, z: -8}
+  randomPosEnd: {x: 8, y: 20, z: 8}
+  randomRotStart: {x: 0, y: 0, z: 0}
+  randomRotEnd: {x: 360, y: 360, z: 360}
+  randomScaleStart: {x: 0.5, y: 0.5, z: 0.5}
+  randomScaleEnd: {x: 2, y: 2, z: 2}
